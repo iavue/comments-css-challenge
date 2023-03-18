@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(223, 19%, 93%);
+    font-family: rubik;
+}
+
+
+#mainDiv {
+    margin: 250px;
+}
+
+#comment1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.plusMinusBtns, .iconUserDate {
+    display: inline-block;
+}
+
+.date, .profileIcon {
+    margin-left: 10px;
+}
+
+.profileIcon, .username, .date {
+    display: inline-block;
+}
+
+.voteNumber {
+    text-align: center;
+}
+
+.reply {
+    float: right;
+}
+
+.comment {
+    margin-left: 40px;
+}
+
+img {
+    max-width: 50%;
+    height: auto; 
+  }
