@@ -210,3 +210,28 @@ figure {
     height: 100%;
     margin: 0 10px;
   }
+
+/* Hover */
+button, textarea {
+    cursor: pointer;
+}
+
+.replyBtn:hover, 
+.editBtn:hover, 
+.deleteBtn:hover, 
+#sendBtn:hover {
+    opacity: 0.5;
+}
+
+/* .plus-btn:hover,
+.minus-btn:hover {
+  opacity: 0.8;
+} */
+
+img {
+    opacity: 1.0;
+}
+  
+.plusMinusBtns button:hover img {
+    opacity: 0.7;
+}
