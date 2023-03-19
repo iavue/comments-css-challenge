@@ -228,10 +228,10 @@ button, textarea {
   opacity: 0.8;
 } */
 
-img {
-    opacity: 1.0;
+.fade {
+    opacity: 0.5;
 }
   
 .plusMinusBtns button:hover img {
-    opacity: 0.7;
+    opacity: 1.0;
 }
