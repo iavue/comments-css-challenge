@@ -3,12 +3,12 @@ body {
     font-family: rubik;
 }
 
-
 #mainDiv {
     margin: 250px;
 }
 
 #comment1 {
+    position: relative;
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
     border-radius: 8px;
@@ -18,6 +18,8 @@ body {
     /* display: inline-block; */
     float: left;
     background-color: hsl(223, 19%, 93%);
+    border: hsl(223, 19%, 93%) solid;
+    border-radius: 10px;
 }
 
 .voteBtn {
@@ -25,27 +27,65 @@ body {
     border: none;
 }
 
+#plusBtn {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    margin-left: 2px;
+}
+
+#minusBtn {
+    padding-bottom: 9px;
+    margin-left: 2px;
+}
+
 .profileIcon {
     display: inline-block;
     vertical-align: top;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 .username {
     display: inline-block;
     /* vertical-align: top; */
     /* margin-left: 10px; */
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 .date {
     margin-left: 10px;
+    font-weight: lighter;
+    color: hsl(211, 10%, 45%);
 }
 
 .voteNumber {
     text-align: center;
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+    margin: 5px 5px;
+}
+
+.replyBtn {
+    /* float: right; */
+    border: white solid;
+    border-radius: 8px;
+    background-color: white;
+    padding-top: 25px;
+    padding-right: 20px;
 }
 
 .reply {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+.replyBtnText {
+    color: hsl(238, 40%, 52%);
+    margin-left: 5px;
+    font-weight: 600;
 }
 
 .comment {
@@ -62,3 +102,11 @@ figure {
     margin-left: 24px;
 }
 
+.comment {
+    padding-left: 15px;
+}
+
+.commentText {
+    color: hsl(211, 10%, 45%);
+    margin-bottom: 0;
+}
