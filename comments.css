@@ -7,7 +7,7 @@ body {
     margin: 250px;
 }
 
-#comment1 {
+.mainComments, .replyComments {
     position: relative;
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
@@ -68,7 +68,6 @@ body {
 }
 
 .replyBtn {
-    /* float: right; */
     border: white solid;
     border-radius: 8px;
     background-color: white;
@@ -109,4 +108,52 @@ figure {
 .commentText {
     color: hsl(211, 10%, 45%);
     margin-bottom: 0;
+}
+
+.replyComments {
+    width: 550px;
+    margin-left: auto;
+}
+
+.tagUsername {
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+
+/* Edit Button */
+.editBtn, .deleteBtn {
+    border: white solid;
+    border-radius: 8px;
+    background-color: white;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.editDelete {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+.editBtnText {
+    color: hsl(238, 40%, 52%);
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.youIcon {
+    border: hsl(238, 40%, 52%) solid;
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    font-weight: 200;
+    font-size: small;
+    border-top: 0;
+    border-bottom: 1;
+    margin-left: 5px;
+}
+
+.deleteBtnText {
+    color: hsl(358, 79%, 66%);
+    margin-left: 5px;
+    font-weight: 600;
 }

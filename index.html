@@ -22,10 +22,10 @@
 </head>
 <body>
 
-<div id="mainDiv">  <!-- Comments inside this big ol' div -->
+<div id="mainDiv">  <!-- Everything inside this big ol' div -->
 
   <!-- Comment #1 -->
-  <div id="comment1"> 
+  <div id="comment1" class="mainComments"> 
 
     <!-- Plus & Minus buttons with the number of reactions in between -->
     <div class="plusMinusBtns">
@@ -44,21 +44,142 @@
 
   <!-- Reply icon and button -->
     <div class="reply">
-      <button class="replyBtn"><img src="images/icon-reply.svg" alt="profile" /><span class="replyBtnText">Reply</span></button>
+      <button class="replyBtn"><img src="images/icon-reply.svg" alt="reply" /><span class="replyBtnText">Reply</span></button>
     </div>
 
   <!-- The comment itself -->
     <div class="comment">
-      <p class="commentText">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
+      <p class="commentText">
+        Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. 
+        You've nailed the design and the responsiveness at various breakpoints works really well.
+      </p>
+    </div>
+
+  </div> 
+  <!-- End Comment #1 -->
+
+  <br>
+
+  <!-- Comment #2 -->
+  <div id="comment2" class="mainComments"> 
+
+    <!-- Plus & Minus buttons with the number of reactions in between -->
+    <div class="plusMinusBtns">
+      <div><button id="plusBtn" class="voteBtn"><img src="images/icon-plus.svg" alt="plusBtn"/></button></div>
+      <p class="voteNumber">5</p>
+      <div><button id="minusBtn" class="voteBtn"><img src="images/icon-minus.svg" alt="minusBtn"/></button></div>
+    </div>
+  
+  <!-- Profile pic, username and how long ago -->
+    <div class="iconUserDate">
+        <figure class="profileIcon"><img src="./images/avatars/image-maxblagun.png" alt="profile" class="avatar"/></figure>
+        <p class="username">maxblagun
+          <span class="date">2 weeks ago</span>
+        </p>
+    </div>
+
+  <!-- Reply icon and button -->
+    <div class="reply">
+      <button class="replyBtn"><img src="images/icon-reply.svg" alt="reply" /><span class="replyBtnText">Reply</span></button>
+    </div>
+
+  <!-- The comment itself -->
+    <div class="comment">
+      <p class="commentText">
+        Woah, your project looks awesome! How long have you been coding for? 
+        I'm still new, but think I want to dive into React as well soon. 
+        Perhaps you can give me an insight on where I can learn React? Thanks!
+      </p>
     </div>
 
   </div>
+  <!-- End Comment #2 -->
+
+  <br>
+
+  <!-- Comment #3 -->
+  <div id="comment3" class="replyComments"> 
+
+    <!-- Plus & Minus buttons with the number of reactions in between -->
+    <div class="plusMinusBtns">
+      <div><button id="plusBtn" class="voteBtn"><img src="images/icon-plus.svg" alt="plusBtn"/></button></div>
+      <p class="voteNumber">4</p>
+      <div><button id="minusBtn" class="voteBtn"><img src="images/icon-minus.svg" alt="minusBtn"/></button></div>
+    </div>
+  
+  <!-- Profile pic, username and how long ago -->
+    <div class="iconUserDate">
+        <figure class="profileIcon"><img src="./images/avatars/image-ramsesmiron.png" alt="profile" class="avatar"/></figure>
+        <p class="username">ramsesmiron
+          <span class="date">1 week ago</span>
+        </p>
+    </div>
+
+  <!-- Reply icon and button -->
+    <div class="reply">
+      <button class="replyBtn"><img src="images/icon-reply.svg" alt="reply" /><span class="replyBtnText">Reply</span></button>
+    </div>
+
+  <!-- The comment itself -->
+    <div class="comment">
+      <p class="commentText">
+        <span class="tagUsername">@maxblagun</span>
+        If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. 
+        It's very tempting to jump ahead but lay a solid foundation first.
+      </p>
+    </div>
+
+  </div>
+  <!-- End Comment #3 -->
+
+  <br>
+
+  <!-- Comment #4 -->
+  <div id="comment3" class="replyComments"> 
+
+    <!-- Plus & Minus buttons with the number of reactions in between -->
+    <div class="plusMinusBtns">
+      <div><button id="plusBtn" class="voteBtn"><img src="images/icon-plus.svg" alt="plusBtn"/></button></div>
+      <p class="voteNumber">2</p>
+      <div><button id="minusBtn" class="voteBtn"><img src="images/icon-minus.svg" alt="minusBtn"/></button></div>
+    </div>
+  
+  <!-- Profile pic, username and how long ago -->
+    <div class="iconUserDate">
+        <figure class="profileIcon"><img src="./images/avatars/image-juliusomo.png" alt="profile" class="avatar"/></figure>
+        <p class="username">juliusomo
+          <span class="youIcon">you</span>
+          <span class="date">2 days ago</span>
+        </p>
+    </div>
+
+  <!-- Edit & Delete icon and button -->
+    <div class="editDelete">
+      <button class="deleteBtn"><img src="images/icon-delete.svg" alt="delete" /><span class="deleteBtnText">Delete</span></button>
+      <button class="editBtn"><img src="images/icon-edit.svg" alt="edit" /><span class="editBtnText">Edit</span></button>
+    </div>
+
+  <!-- The comment itself -->
+    <div class="comment">
+      <p class="commentText">
+        <span class="tagUsername">@ramsesmiron</span>
+        I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. 
+        But the fundamentals are what stay constant.
+      </p>
+    </div>
+
+  </div>
+  <!-- End Comment #4 -->
+
+
 
 </div>
 
-  <div class="attribution">
-    Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+<div class="attribution">
+  Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div>
+
 </body>
 </html>
