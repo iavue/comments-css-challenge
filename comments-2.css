@@ -14,17 +14,6 @@ body {
     border-radius: 8px;
 }
 
-.plusMinusBtns/* , .iconUserDate */{ 
-    /* display: inline-block; */
-    float: left;
-    background-color: hsl(223, 19%, 93%);
-}
-
-.voteBtn {
-    background-color: hsl(223, 19%, 93%);
-    border: none;
-}
-
 .profileIcon {
     display: inline-block;
     vertical-align: top;
@@ -38,10 +27,6 @@ body {
 
 .date {
     margin-left: 10px;
-}
-
-.voteNumber {
-    text-align: center;
 }
 
 .reply {
@@ -62,3 +47,25 @@ figure {
     margin-left: 24px;
 }
 
+.plusMinusBtns {
+    float: left;
+  }
+  
+.voteBtn {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    padding: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+  
+.voteBtn:hover {
+    background-color: #f2f2f2;
+}
+  
+.voteNumber {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+}
