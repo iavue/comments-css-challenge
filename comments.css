@@ -4,7 +4,9 @@ body {
 }
 
 #mainDiv {
-    margin: 250px;
+    margin: 595px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .mainComments, .replyComments, .addComment {
@@ -14,8 +16,7 @@ body {
     border-radius: 8px;
 }
 
-.plusMinusBtns/* , .iconUserDate */{ 
-    /* display: inline-block; */
+.plusMinusBtns{ 
     float: left;
     background-color: hsl(223, 19%, 93%);
     border: hsl(223, 19%, 93%) solid;
@@ -47,8 +48,6 @@ body {
 
 .username {
     display: inline-block;
-    /* vertical-align: top; */
-    /* margin-left: 10px; */
     font-size: 15px;
     font-weight: bold;
     margin-top: 0;
@@ -111,7 +110,7 @@ figure {
 }
 
 .replyComments {
-    width: 550px;
+    width: 600px;
     margin-left: auto;
 }
 
@@ -162,7 +161,6 @@ figure {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    /* padding-left: 0; */
     margin: 0;
     gap: 0;
 }
@@ -200,9 +198,6 @@ figure {
     font-weight: 300;
     font-size: 15px;
     padding: 13px 30px 13px 30px;
-    /* border-top: 0;
-    border-bottom: 1; */
-    /* margin-left: 5px; */
 }
 
 .separator {
@@ -222,11 +217,6 @@ button, textarea {
 #sendBtn:hover {
     opacity: 0.5;
 }
-
-/* .plus-btn:hover,
-.minus-btn:hover {
-  opacity: 0.8;
-} */
 
 .fade {
     opacity: 0.5;
