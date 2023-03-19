@@ -204,3 +204,9 @@ figure {
     border-bottom: 1; */
     /* margin-left: 5px; */
 }
+
+.separator {
+    border-left: 1px solid grey;
+    height: 100%;
+    margin: 0 10px;
+  }
